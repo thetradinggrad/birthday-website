@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Samriddhi 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Include style from i-love-you/style.css */
+    .i-love-you-container {
+      display: none;
+      text-align: center;
+      padding: 20px;
+      background: #fff0f6;
+    }
+    .i-love-you-container h1 {
+      color: #ff4081;
+    }
+    .back-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Page -->
+  <div class="main-container">
+    <img src="images/samriddhi.jpg" alt="Samriddhi Tiwari" class="hero-image"/>
+    <h1>🎂 Happy Birthday Meri Puchku Baby 🥺❤️💫</h1>
+    <p class="subtext">Samriddhi — Meri Sundari baby 👑💖</p>
+    <button onclick="reveal()">🎁 Tap for Surprise</button>
+    <div><audio src="jeene laga.mp3" controls autoplay></audio></div>
+    <div id="message" class="hidden">
+      <p>I love you so much 😘😘😘😘😘</p>
+      <p>Happy Birthday, Samriddhi ❤️
+
+On your special day, I want to begin not just with love, but with honesty.
+
+I’m sorry.
+Samriddhi, you are my favorite person in this world. I know I’ve made many mistakes, especially over the past year. I didn’t give you the time, attention, or love you deserved. I was so focused on academics, so caught up in trying to secure a future for us, that I forgot to be present in the moments that truly mattered—with you.
+
+As a boyfriend, I failed to give you what you needed emotionally. I thought once COMEDK ended and things settled down, we’d finally have our time together. But in that wait, I ignored your words, especially when you tried to tell me how distant we had become. I never truly believed you'd walk away... until you did.
+
+And I broke.
+
+I know my ego and attitude came in the way, and I hate myself for that. Not just because I lost you—but because I hurt the one person who only ever wished the best for me. I feel guilty, and I carry that guilt every day.
+
+Please believe me when I say this: I love you so much. You’ve never had to feel insecure about how I see you—I’ve only ever wanted the best for you, and I never could think badly of you. Never.
+
+Samriddhi, if there’s even a small space left in your heart for me, I’m asking you—please come back. I promise I’ll be better. I’ll be the kind of boyfriend you deserve. You mean the world to me, and without you, everything feels incomplete.
+
+So on your birthday, I wish you happiness, love, and all the beautiful things life has to offer—and I truly hope I can be a part of that again.
+
+I’m sorry. I love you. And I miss you. Happy Birthday, my love. 🎂💖💞</p>
+      <p>i-love-you 🎉🎂💖 Enjoy your day my girl </p> 
+      <button onclick="celebrate()">🎊 Let's Celebrate</button>
+    </div>
+  </div>
+
+  <!-- Celebration Section -->
+  <div id="celebration-section" class="hidden">
+    <img src="images/cake.png" class="cake" />
+    <p>🎂 Ready to cut the cake?</p>
+    <button onclick="cutCake()">🍰 Let's Cut the Cake</button>
+    <div><audio id="audio" src="hbd.mp3" controls></audio></div>
+    <div id="next-btn" class="hidden">
+      <button onclick="launchFinal()">➡️ Next</button>
+    </div>
+  </div>
+
+  <!-- I Love You Section (New) -->
+  <div id="final-scene" class="i-love-you-container">
+    <h1>I ❤️ You Samriddhi! 💖</h1>
+    <p><div>Pls tum khud ke upar confidence rakho ab college jaa rhi ho koi ab rokne aur tokne wala nahi hoga</div>
+    <div>aur yeh phone chala ke dimag ko distract krna band kro phone tumko aur weak krta hai agar koi dikkat hai toh socho uske baare me</div>
+  <div>aur uska solution nikalo aur apna aage ka roadmap banalo jisko dekh ke tum kabhi bhi track pe aa skti ho warna aage chal ke bahot dikkat hoga </div>
+<div>sorry itna gyan dene ke liye ly Bye.
+  umaaaah
+</div></p>
+    <p>🧎‍♂️‍➡️💍</p>
+    <button class="back-button" onclick="goBack()">⬅️ Back</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* Global Reset and Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+body {
+  background: linear-gradient(to right, #6d0a15, #0d0708);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.main-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: 20px;
+  box-shadow: 0 0 20px #ff69b4;
+}
+
+/* Main Titles */
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+  text-shadow: 2px 2px 8px #ff69b4;
+}
+
+.subtext {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: #ff4081;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 64, 129, 0.2);
+}
+
+button:hover {
+  background-color: #c72259;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+/* Celebration Section */
+#celebration-section {
+  padding: 30px;
+}
+
+.cake {
+  width: 800px;
+  margin: 20px auto;
+  display: block;
+  animation: floatCake 2s ease-in-out infinite alternate;
+}
+
+@keyframes floatCake {
+  from { transform: translateY(0); }
+  to { transform: translateY(-10px); }
+}
+
+/* I Love You Section */
+.i-love-you-container {
+  display: none;
+  padding: 40px 20px;
+  background-color: #fff0f5;
+  color: #880e4f;
+  border-radius: 15px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.i-love-you-container h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #ff4081;
+}
+
+.i-love-you-container p {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff80ab;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #f06292;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
